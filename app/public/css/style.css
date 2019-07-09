@@ -1,0 +1,32 @@
+*{
+    font-size: 16px;
+}
+
+input{
+    font-size: 16px;
+}
+
+.input-field{
+    font-size: 18px;
+}
+
+.row {
+    padding-top: 30px;
+}
+
+.rightside {
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+#top{
+    margin-top: 0px;
+}
+
+#bot{
+    margin-bottom: 0px;
+}
+
+.btn{
+    margin-bottom: 10px;
+}
