@@ -2,16 +2,17 @@
     font-size: 16px;
 }
 
-input{
-    font-size: 16px;
+h5{
+padding-top: 0px;
 }
 
-.input-field{
-    font-size: 18px;
-}
 
 .row {
     padding-top: 30px;
+}
+
+.btn{
+    margin-bottom: 10px;
 }
 
 .rightside {
@@ -27,6 +28,10 @@ input{
     margin-bottom: 0px;
 }
 
-.btn{
-    margin-bottom: 10px;
+#name{
+    padding-top: 12px;
+}
+
+#image{
+    padding-top: 12px;
 }

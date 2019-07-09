@@ -12,8 +12,12 @@
 
     <link rel="stylesheet" type="text/css" href="css/style.css" />
 
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
 </head>
 
 <body>
@@ -28,39 +32,153 @@
             <div class="col s12">
                 <div class="input-field">
                     <input placeholder="John Smith" id="name" type="text" class="validate">
-                    <label for="name" class="surv">Name (Required)</label>
+                    <label for="name" class="surv">
+                        <h5>Name (Required)</h5>
+                    </label>
                 </div>
                 <div class="input-field">
                     <input placeholder="www.image.com" id="image" type="text" class="validate">
-                    <label for="image" class="surv">Link to Photo Image (Required)</label>
+                    <label for="image" class="surv">
+                        <h5>Link to Photo Image (Required)</h5>
+                    </label>
                 </div>
 
                 <h4>Question 1</h4>
                 <p>Your mind is always buzzing with unexplored ideas and plans.</p>
+                <div class="input-field">
+                    <select id="q1">
+                        <option value="" disabled selected>1 Strongly Disagree | 5 Strongly Agree</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="3">4</option>
+                        <option value="3">5</option>
+                    </select>
+                </div>
                 <h4>Question 2</h4>
                 <p>Generally speaking, you rely more on your experience than your imagination.</p>
+                <div class="input-field">
+                    <select id="q2">
+                        <option value="" disabled selected>1 Strongly Disagree | 5 Strongly Agree</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="3">4</option>
+                        <option value="3">5</option>
+                    </select>
+                </div>
                 <h4>Question 3</h4>
                 <p>You find it easy to stay relaxed and focused even when there is some pressure.</p>
+                <div class="input-field">
+                    <select id="q3">
+                        <option value="" disabled selected>1 Strongly Disagree | 5 Strongly Agree</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="3">4</option>
+                        <option value="3">5</option>
+                    </select>
+                </div>
                 <h4>Question 4</h4>
                 <p>You rarely do something just out of sheer curiosity.</p>
+                <div class="input-field">
+                    <select id="q4">
+                        <option value="" disabled selected>1 Strongly Disagree | 5 Strongly Agree</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="3">4</option>
+                        <option value="3">5</option>
+                    </select>
+                </div>
                 <h4>Question 5</h4>
                 <p>People can rarely upset you.</p>
+                <div class="input-field">
+                    <select id="q5">
+                        <option value="" disabled selected>1 Strongly Disagree | 5 Strongly Agree</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="3">4</option>
+                        <option value="3">5</option>
+                    </select>
+                </div>
                 <h4>Question 6</h4>
                 <p>It is often difficult for you to relate to other people’s feelings.</p>
+                <div class="input-field">
+                    <select id="q6">
+                        <option value="" disabled selected>1 Strongly Disagree | 5 Strongly Agree</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="3">4</option>
+                        <option value="3">5</option>
+                    </select>
+                </div>
                 <h4>Question 7</h4>
                 <p>In a discussion, truth should be more important than people’s sensitivities.</p>
+                <div class="input-field">
+                    <select id="q7">
+                        <option value="" disabled selected>1 Strongly Disagree | 5 Strongly Agree</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="3">4</option>
+                        <option value="3">5</option>
+                    </select>
+                </div>
                 <h4>Question 8</h4>
                 <p>You rarely get carried away by fantasies and ideas.</p>
+                <div class="input-field">
+                    <select id="q8">
+                        <option value="" disabled selected>1 Strongly Disagree | 5 Strongly Agree</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="3">4</option>
+                        <option value="3">5</option>
+                    </select>
+                </div>
                 <h4>Question 9</h4>
-                <p>You think that everyone’s views should be respected regardless of whether they are supported by facts or not.</p>
+                <p>You think that everyone’s views should be respected regardless of whether they are supported by facts
+                    or not.</p>
+                <div class="input-field">
+                    <select id="q9">
+                        <option value="" disabled selected>1 Strongly Disagree | 5 Strongly Agree</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="3">4</option>
+                        <option value="3">5</option>
+                    </select>
+                </div>
                 <h4>Question 10</h4>
                 <p>You feel more energetic after spending time with a group of people.</p>
+                <div class="input-field">
+                    <select id="q10">
+                        <option value="" disabled selected>1 Strongly Disagree | 5 Strongly Agree</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="3">4</option>
+                        <option value="3">5</option>
+                    </select>
+                </div>
 
             </div>
         </div>
 
     </div>
-
+    <div class="center">
+            <a href="/submit">
+                <button class="btn waves-effect waves-light amber white-text" type="submit" name="action">Submit Answers
+                </button></a>
+        </div>
+    <script>
+        $(document).ready(function () {
+            $('select').formSelect();
+        });
+    </script>
 </body>
 
 </html>
