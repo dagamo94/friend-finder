@@ -1,11 +1,17 @@
-*{
-    font-size: 16px;
-}
 
 h5{
 padding-top: 0px;
 }
 
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+body{
+    position: relative;
+}
 
 .row {
     padding-top: 30px;
